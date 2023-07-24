@@ -1,0 +1,55 @@
+.listContainer {
+    width: 100%;
+}
+
+.listHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-bottom: 30px;
+}
+
+.listContent {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listItem {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+    padding: 10px 20px;
+    border: 2px solid gray;
+
+    margin-bottom: 20px;
+    padding: 40px 20px;
+}
+
+.listItemBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.listItemName {
+    margin-bottom: 5px;
+}
+
+.listItemStatus {
+    margin: 10px;
+}
+
+.listItemFormBtn {
+    margin: 10px;
+}
